@@ -1,0 +1,96 @@
+.que.autospeak .answer {
+    padding: 0.3em;
+    display: inline;
+}
+
+.que.autospeak .answer input {
+    width: 80%;
+}
+
+/* Editing form. */
+body#page-question-type-autospeak div[id^=fgroup_id_][id*=answeroptions_] {
+    background: #eee;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-bottom: 0;
+}
+
+body#page-question-type-autospeak div[id^=fgroup_id_][id*=answeroptions_] .fgrouplabel label {
+    font-weight: bold;
+}
+
+body#page-question-type-autospeak div[id^=fgroup_id_][id*=answeroptions_] label[for^='id_answer_'] {
+    position: absolute;
+    left: -10000px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+body#page-question-type-autospeak div[id^=fitem_id_][id*=fraction_] {
+    background: #eee;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+body#page-question-type-autospeak div[id^=fitem_id_][id*=feedback_] {
+    background: #eee;
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #bbb;
+    border-top: 0;
+}
+
+/*TT Recorder Styles */
+.qtype_autospeak_ttrec_waveButtonContainer {
+    position: relative;
+    margin: auto;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.qtype_autospeak_ttrec_waveForm {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.qtype_autospeak_ttrec_waveButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: inset 0px 1px 3px #ffccbd, inset 0px -1px 3px #9c282e;
+    color: #000;
+    font-size: 26px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: red;
+}
